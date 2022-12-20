@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px;
+    gap: 11px;
+
+    width: 456px;
+    height: 434px;
+
+    background: #FBFBFB;
+    border-radius: 12px;
+}
+
+.header__inputs {
+    display: flex;
+    gap: 25px;
+}
+
+.header__input {
+
+    width: 320px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E5E9EB;
+    border-radius: 6px;
+}
+
+.header__icon {
+    width: 60px;
+    height: 40px;
+    background: #4094F7;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.006em;
+    color: #F6F8F9;
+    padding-top: 10px;
+}
